@@ -7,8 +7,8 @@ export default defineConfig({
     },
     metas:[
         {
-            http-equiv:'Content-Security-Policy',
-            content:'upgrade-insecure-requests'
+            content:'upgrade-insecure-requests',
+            httpEquiv:'Content-Security-Policy',
         }
     ],    
     // 标题
