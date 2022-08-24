@@ -5,6 +5,12 @@ export default defineConfig({
     nodeModulesTransform: {
         type: 'none',
     },
+    metas:[
+        {
+            httpEquiv:'Content-Security-Policy',
+            content:'upgrade-insecure-requests'
+        }
+    ],    
     // 标题
     title: '后台管理系统',
     // 图标
