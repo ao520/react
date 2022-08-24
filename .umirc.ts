@@ -7,7 +7,7 @@ export default defineConfig({
     },
     metas:[
         {
-            httpEquiv:'Content-Security-Policy',
+            http-equiv:'Content-Security-Policy',
             content:'upgrade-insecure-requests'
         }
     ],    
