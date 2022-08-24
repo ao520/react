@@ -1,0 +1,56 @@
+// scope 独立的css作用域 
+.errorpage{
+    width:100%;
+    height:100%;
+    background: #000;
+    position: relative;
+    padding:0 !important;
+    overflow: hidden;
+    .down{
+      position:absolute;
+      left:20px;
+      top:20px;
+      border:1px solid #fff;
+      color:#fff;
+      width:70px;
+      height:30px;
+      border-radius:10px;
+      text-align:center;
+      line-height:30px;
+    }
+    .dao{
+      position: absolute;
+      top:20px;
+      right:20px;
+      z-index:1000;
+      
+    }
+    .myimg{
+      width:270px;
+      height:270px;
+      position: absolute;
+      top:0;
+      right:0;
+      left:0;
+      bottom:0;
+      margin:auto;
+      z-index:10;
+    }
+    .spandot{
+      position: absolute;
+      z-index: 100;
+      width: 4px;
+      height:4px;
+      border-radius: 50%;
+      animation: flash 3s infinite alternate;
+  
+    }
+     @keyframes flash {
+          from{
+              opacity: 0;
+          }
+          to{
+              opacity: 0.5;
+          }
+      }
+  }

@@ -1,0 +1,561 @@
+@import url(d:\MYXM\react\umiapp\src\styles\animate.css);
+@import url(d:\MYXM\react\umiapp\src\styles\fonts\iconfont.css);
+@import url(d:\MYXM\react\umiapp\src\styles\swiper.min.css);
+html {
+  font-size: 62.5%;
+  font-family: "Microsoft yahei";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, dl, dd, p, textarea, input, select, option, form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 16px;
+}
+
+ol, ul, textarea, input, option, th, td {
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+input[type=text], textarea {
+  -webkit-appearance: none;
+}
+
+input:focus {
+  -webkit-user-modify: read-write-plaintext-only;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, textarea, input {
+  outline: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pd10 {
+  padding: 10px;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.pr15 {
+  padding-right: 15px;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.pl15 {
+  padding-left: 15px;
+}
+
+.mr15 {
+  margin: 15px;
+}
+
+.mr10 {
+  margin: 10px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.ml15 {
+  margin-left: 15px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.aic {
+  align-items: center;
+}
+
+.link1 {
+  color: #f50;
+}
+
+.link2 {
+  color: #0f0;
+}
+
+.c-main {
+  color: #f50;
+}
+
+.c-green {
+  color: #0f0;
+}
+
+.lgbox {
+  width: 100%;
+  height: 100%;
+}
+
+.lgbox .myvideo {
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.lgbox .login-box {
+  position: absolute;
+  width: 390px;
+  height: 600px;
+  border-radius: 8px;
+  padding: 15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+.lgbox .login-box .title {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+
+.lgbox .login-box .box {
+  margin-top: 20px;
+}
+
+.lgbox .login-box .box .el-tabs__nav {
+  width: 100%;
+}
+
+.lgbox .login-box .box .el-tabs__nav .el-tabs__active-bar {
+  background-color: #f50;
+}
+
+.lgbox .login-box .box .el-tabs__nav .el-tabs__item {
+  flex: 1;
+  width: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.lgbox .login-box .box .el-tabs__nav .is-active {
+  color: #f50;
+}
+
+.lgbox .login-box .box .myform .el-input__icon {
+  color: #fff;
+}
+
+.lgbox .login-box .box .myform .el-input__wrapper {
+  background: transparent !important;
+}
+
+.lgbox .login-box .box .myform .el-input__inner {
+  color: #fff;
+  background: transparent !important;
+}
+
+.lgbox .login-box .box .myform .el-form-item__label {
+  color: #fff;
+}
+
+.lgbox .login-box .box .myform .flex {
+  display: flex;
+}
+
+.lgbox .login-box .box .myform .flex .btn {
+  flex: 1;
+}
+
+.lgbox .login-box .box .myform .lastitem {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.lgbox .login-box .box .myform .lastitem .el-form-item__content {
+  line-height: 1;
+}
+
+.lgbox .login-box .box .myform .lastitem .alinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lgbox .login-box .box .myform .lastitem .alinks .litem {
+  font-size: 12px;
+  color: darkorange;
+}
+
+.lgbox .login-box .box .myform .lastitem .alinks .color {
+  color: #fff;
+}
+
+.lgbox .login-box .box .myform .lastitem .alinks .bg {
+  color: aqua;
+}
+
+.lgbox .login-box .box .myform .btnblock {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.otitle {
+  font-size: 22px;
+  color: #f50;
+  margin-bottom: 10px;
+}
+
+.bounce {
+  animation: bounce 0.9s;
+  -webkit-animation: bounce 0.9s;
+}
+
+.rgbox {
+  padding: 15px;
+}
+
+.rgbox .lastitem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rgbox .lastitem .color1 {
+  color: #f50;
+}
+
+.rgbox .lastitem .color2 {
+  color: darkorchid;
+}
+
+.tada1 {
+  animation: tada 1.2s both  infinite;
+  -webkit-animation: tada 1.2s both  infinite;
+}
+
+.tada {
+  animation: tada 1.2s;
+  -webkit-animation: tada 1.2s;
+}
+
+.min-enter-active {
+  animation: zoomInDown 1s;
+  -webkit-animation: zoomInDown 1s;
+}
+
+.min-leave-active {
+  animation: zoomOutDown 1s;
+}
+
+.van-sticky--fixed {
+  z-index: 9999 !important;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links .color1 {
+  color: #f50;
+}
+
+.links .color2 {
+  color: #123456;
+}
+
+.links .left a {
+  color: #f50;
+}
+
+.links .right a {
+  color: #123456;
+}
+
+.hicon {
+  font-size: 20px !important;
+  color: #ff5f16 !important;
+}
+
+.mpage {
+  padding-top: 46px;
+  padding-bottom: 45px;
+}
+
+.subpage {
+  padding-top: 46px;
+}
+
+html, body, #app, .box {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  padding: 0 0 0 0;
+}
+
+.spage {
+  padding: 46px 0 0 0;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.main-box {
+  width: 100%;
+  height: 100%;
+  padding: 46px 0 45px 0;
+}
+
+@keyframes moveIn {
+  from {
+    transform: translateY(5%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes moveOut {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(5%);
+    opacity: 0;
+  }
+}
+
+.move-enter-active {
+  animation: moveIn 0.4s;
+}
+
+.move-leave-active {
+  animation: moveOut 0.4s;
+}
+
+.ripple {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  position: absolute;
+  opacity: 1;
+}
+
+.rippleEffect {
+  -webkit-animation: rippleDrop .4s linear;
+  animation: rippleDrop .4s linear;
+}
+
+@-webkit-keyframes rippleDrop {
+  100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes rippleDrop {
+  100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.loginbtn {
+  width: 120px;
+  height: 50px;
+  /* position: relative; */
+  background: #1685D3;
+  outline: line;
+  /* overflow: hidden; */
+}
+
+@keyframes move-out {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(5%);
+    opacity: 0;
+  }
+}
+
+@keyframes move-in {
+  from {
+    transform: translateY(5%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.slide-enter-active {
+  animation: move-in .3s;
+}
+
+.slide-leave-active {
+  animation: move-out .3s;
+}
+
+@keyframes move-outtwo {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(2%);
+    opacity: 0;
+    -webkit-transform: translateY(2%);
+    -moz-transform: translateY(2%);
+    -ms-transform: translateY(2%);
+    -o-transform: translateY(2%);
+  }
+}
+
+@keyframes move-intwo {
+  from {
+    transform: translateY(2%);
+    opacity: 0;
+    -webkit-transform: translateY(2%);
+    -moz-transform: translateY(2%);
+    -ms-transform: translateY(2%);
+    -o-transform: translateY(2%);
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.slidetwo-enter-active {
+  animation: move-intwo .3s;
+  -webkit-animation: move-intwo .3s;
+}
+
+.slidetwo-leave-active {
+  animation: move-outtwo .3s;
+  -webkit-animation: move-outtwo .3s;
+}
+
+.zoomInUp {
+  animation: zoomInUp 1.3s;
+}
