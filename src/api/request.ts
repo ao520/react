@@ -2,7 +2,7 @@ import {history} from 'umi'
 import axios from 'axios'
 import {showError,ShowLoading,showSuccess} from '../utils/message'
 
-export const baseURL = 'https://120.48.35.240:7001'
+export const baseURL = '//120.48.35.240:7001'
 // export const baseURL = 'http://localhost:3001'
 // axios 的配置  request=axios 
 export const request = axios.create({
