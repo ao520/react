@@ -4,7 +4,7 @@ import {showError,ShowLoading,showSuccess} from '../utils/message'
 
 // export const baseURL = '//120.48.35.240:7001'
 // export const baseURL = 'http://localhost:3001'
-export const baseURL='https://my-express-ao520.vercel.app/'
+export const baseURL='https://my-express-swart.vercel.app'
 // axios 的配置  request=axios 
 export const request = axios.create({
     timeout:60000,  // 超时 
